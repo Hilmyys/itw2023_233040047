@@ -128,12 +128,84 @@ table {
   border-spacing: 0;
 }
 
+/*style.css */
 body {
     font: 10px/20px arial,sans-serif;
     background-color: #eaeaea;
     background-image: url(y-so-serious-white.pmng);
     color: #333;
 }
-.logo {
-    border-image: url(ANTARA-id.png);
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .judul{
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+}
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 7px;
+}
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+.header a:hover {
+    background-color: antiquewhite;
+    color: white;
+}
+.hero {
+    height: 300px;
+    background-image: url(1000012722-01_1.jpeg.webp);
+    background-size: cover;
+    background-position: 0 400px;
+    border-top: 5px salmon;
+    border-bottom: 5px skyblue;
+}
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.content .petunjuk {
+    font-size: 11px;
+    margin-top: -20px
+}
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+.content .sedekat {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+.content .rencanaan {
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }
